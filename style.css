@@ -1,0 +1,56 @@
+
+Header{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 80px;
+    background: rgb(91, 142, 172);
+    color: rgba(255, 255, 255, 0.61);
+
+  
+}
+
+Body{
+    background: rgb(162, 196, 192)
+}
+th{
+    padding: 1rem;
+    font-weight: bold;
+    
+}
+
+td{
+    padding: 1rem;
+    
+}
+
+
+
+
+
+.tabela1{
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+tr{
+    border: 2px solid;
+}
+
+td{
+    border: 2px solid;
+}
+
+th{
+    border: 2px solid;
+}
+
+.tabela2{
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
