@@ -1,4 +1,5 @@
 const adicionar = document.getElementById('adicionar-button');
+const remover = document.getElementById('remover-button');
 
 //variaveis de professores
 
@@ -11,14 +12,25 @@ let segunda5 = document.getElementById('segunda5').value;
 let segunda6 = document.getElementById('segunda6').value;
 let segunda7 = document.getElementById('segunda7').value;
 
-if(segunda1 == segunda2){
     
+    
+function display_hidden_fields()
+{
+    
+    
+    document.getElementById("tabela-horarios-hiden").style.display = 'table-row';   
    
-
+    
 }
+
+function hide_fields()
+{
     
     
+    document.getElementById("tabela-horarios-hiden").style.display = 'none';   
+   
+    
+}
 
-
-
-adicionar.addEventListener('click', alert1); 
+adicionar.addEventListener('click', display_hidden_fields); 
+remover.addEventListener('click', hide_fields); 

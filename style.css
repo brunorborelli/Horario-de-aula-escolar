@@ -67,6 +67,10 @@ h2{
     margin-bottom: 3rem;
 }
 
+#tabela-horarios-hiden{
+    display:none;
+}
+
 .button-style{
 border: 2px solid;
 border-radius: 5px;
@@ -78,6 +82,14 @@ background-color:#e6dcc4;
 }
 
 .button-position{
+    display: block;
+    position: absolute;
+    right: 1000px;
+    top: 700px;
+    
+}
+
+.button-position-remover{
     display: block;
     position: absolute;
     right: 900px;
