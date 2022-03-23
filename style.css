@@ -68,8 +68,9 @@ h2{
 }
 
 #tabela-horarios-hiden{
-    display:none;
+    display:table-row;
 }
+
 
 .button-style{
 border: 2px solid;
